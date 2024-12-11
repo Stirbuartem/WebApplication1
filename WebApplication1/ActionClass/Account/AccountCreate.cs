@@ -19,4 +19,10 @@ namespace WebApplication1.ActionClass.Account
         [Required]
         public string Password { get; set; }
     }
+
+    public class AccountUpdate
+    {
+        [Required]
+        public string Update { get; set; }
+    }
 }
